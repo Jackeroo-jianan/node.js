@@ -3,7 +3,7 @@ const { MYSQL_CONF } = require('../conf/db')
 
 //创建链接对象
 const con = mysql.createConnection(MYSQL_CONF)
-console.log(con)
+//console.log(con)
 //开始链接
 con.connect()
 

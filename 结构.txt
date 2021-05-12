@@ -1,0 +1,8 @@
+
+1. bin/www.js：程序入口， createServer的逻辑
+
+src文件夹：
+2. app.js：系统中关系http的基本设置：返回类型， 获取path，解析query，处理路由等等
+3. router.js 路由相关
+4. controller: 数据相关
+5. model对成功与失败请求返回的数据进行统封装
